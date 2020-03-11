@@ -6,4 +6,4 @@ steps:
   - helloraghav
   - --source=.
   - --trigger-http
-  - --runtime
+  - --runtime=python37
