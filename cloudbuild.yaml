@@ -5,4 +5,5 @@ steps:
   - deploy
   - helloraghav
   - --source=.
-  - --trigger-http  
+  - --trigger-http
+  - --runtime
