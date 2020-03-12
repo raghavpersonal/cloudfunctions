@@ -1,7 +1,9 @@
 steps:
 - name: 'gcr.io/cloud-builders/gcloud'
-  #args: ['functions','deploy','helloraghav','--source=.','--trigger-http','--runtime=python37','--update-env-vars=db_name="cars",db_user="postgres",db_pass="XXXXXXXXXX" ']
-  args: ['functions','deploy','helloraghav','--source=.','--trigger-http','--runtime=python37','--update-env-vars=db_name=cars,db_user=postgres,db_pass=XXXXXXXXXX ']
+
+  
+  ## Working args: ['functions','deploy','helloraghav','--source=.','--trigger-http','--runtime=python37','--update-env-vars=db_name=cars,db_user=postgres,db_pass=XXXXXXXXXX ']
+  args: ['--project manifest-truth-270909','functions','deploy','helloraghav','--source=.','--trigger-http','--runtime=python37','--update-env-vars=db_name=cars,db_user=postgres,db_pass=XXXXXXXXXX ']
   
   
   #--update-env-vars=db_name="cars",db_user="postgres",db_pass="NKumoLjjOIiJOBIz"]
