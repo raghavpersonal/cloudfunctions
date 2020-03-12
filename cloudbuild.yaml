@@ -4,7 +4,7 @@ steps:
   
   ## Working args: ['functions','deploy','helloraghav','--source=.','--trigger-http','--runtime=python37','--update-env-vars=db_name=cars,db_user=postgres,db_pass=XXXXXXXXXX ']
   ## Working args: ['functions','deploy','helloraghav','--source=.','--trigger-http','--runtime=python37','--update-env-vars=db_name=cars,db_user=postgres,db_pass=XXXXXXXXXX ','--project=manifest-truth-270909']
-  args: ['functions','deploy','helloraghav','--source=./carsub_address','--trigger-http','--runtime=python37','--update-env-vars=db_name=cars,db_user=postgres,db_pass=XXXXXXXXXX','--timeout=540s','--project=manifest-truth-270909']
+  args: ['functions','deploy','helloraghav','--source=./carsub_address','--trigger-http','--runtime=python37','--update-env-vars=db_name=cars,db_user=postgres,db_pass=XXXXXXXXXX','--timeout=540','--project=manifest-truth-270909']
   
   540 seconds
   
