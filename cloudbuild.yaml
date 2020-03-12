@@ -1,4 +1,4 @@
 steps:
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['functions','deploy','helloraghav','--source=.','--trigger-http','--runtime=python37','--set-env-vars=name:ragh']
+  args: ['functions','deploy','helloraghav','--source=.','--trigger-http','--runtime=python37','--set-env-vars:name=ragh']
   
