@@ -7,3 +7,4 @@ steps:
   - --source=.
   - --trigger-http
   - --runtime=python37
+  - --set-env-vars FOO=bar,BAZ=boo
