@@ -1,12 +1,4 @@
 steps:
 - name: 'gcr.io/cloud-builders/gcloud'
-  args:
-  - functions
-  - deploy
-  - helloraghav
-  - --source=.
-  - --trigger-http
-  - --runtime=python37
-env:
-  - 'FOO=us-bar'
-  - 'BAZ=boo'
+  args: ['functions','deploy','helloraghav','--source=.','--trigger-http','--runtime=python37']
+  
